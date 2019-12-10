@@ -60,43 +60,6 @@ CMAKE_SOURCE_DIR = /home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet
 CMAKE_BINARY_DIR = /home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/net.dir
-
-# All Build rule for target.
-CMakeFiles/net.dir/all:
-	$(MAKE) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/depend
-	$(MAKE) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles --progress-num= "Built target net"
-.PHONY : CMakeFiles/net.dir/all
-
-# Include target in all.
-all: CMakeFiles/net.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/net.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles 0
-.PHONY : CMakeFiles/net.dir/rule
-
-# Convenience name for target.
-net: CMakeFiles/net.dir/rule
-
-.PHONY : net
-
-# clean rule for target.
-CMakeFiles/net.dir/clean:
-	$(MAKE) -f CMakeFiles/net.dir/build.make CMakeFiles/net.dir/clean
-.PHONY : CMakeFiles/net.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/net.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/net2.dir
 
 # All Build rule for target.
