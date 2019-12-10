@@ -1,6 +1,6 @@
 #ifndef ACTIVATION_H
 #define ACTIVATION_H
-
+// ReLU activation
 namespace UkrNet
 {
     template <class T>
