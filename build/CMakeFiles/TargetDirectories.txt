@@ -1,3 +1,0 @@
-/home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles/rebuild_cache.dir
-/home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles/net2.dir
-/home/knysh/Documents/MachineLearning/SoundRecognition/UkrNet/build/CMakeFiles/edit_cache.dir

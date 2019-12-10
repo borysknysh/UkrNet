@@ -27,10 +27,10 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.h)
 
 
 
-add_executable(net net.cxx ${headers})
+# add_executable(net net.cxx ${headers})
 add_executable(net2 net2.cxx ${headers})
 
-target_link_libraries(net  -lm -lcln -lginac -lstdc++ -fopenmp -pthread -I/usr/local/include/root -L/usr/lib/x86_64-linux-gnu/ -L/usr/aarch64-linux-gnu/lib -L/usr/local/lib/root -L/usr/local/lib/ -lcln -lginac -lTree -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lMinuit2 -lMinuit -lMathMore -lThread -lm -rdynamic -L/usr/local/lib -lboost_filesystem -lboost_system -ldl )
+# target_link_libraries(net  -lm -lcln -lginac -lstdc++ -fopenmp -pthread -I/usr/local/include/root -L/usr/lib/x86_64-linux-gnu/ -L/usr/aarch64-linux-gnu/lib -L/usr/local/lib/root -L/usr/local/lib/ -lcln -lginac -lTree -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lMinuit2 -lMinuit -lMathMore -lThread -lm -rdynamic -L/usr/local/lib -lboost_filesystem -lboost_system -ldl )
 
 target_link_libraries(net2  -lm -lcln -lginac -lstdc++ -fopenmp -pthread -I/usr/local/include/root -L/usr/lib/x86_64-linux-gnu/ -L/usr/aarch64-linux-gnu/lib -L/usr/local/lib/root -L/usr/local/lib/ -lcln -lginac -lTree -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lMinuit2 -lMinuit -lMathMore -lThread -lm -rdynamic -L/usr/local/lib -lboost_filesystem -lboost_system -ldl )
 
